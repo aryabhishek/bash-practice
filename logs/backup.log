@@ -1,0 +1,60 @@
+Backup started at 2025-06-29_19-18-13...
+sending incremental file list
+created directory ./dist/latest
+./
+file1.txt
+file2.txt
+
+sent 224 bytes  received 93 bytes  634.00 bytes/sec
+total size is 30  speedup is 0.09
+Backup completed succesfully at  
+Backup started at 2025-06-29_19-21-11...
+sending incremental file list
+
+sent 101 bytes  received 12 bytes  75.33 bytes/sec
+total size is 30  speedup is 0.27
+Backup completed succesfully at  
+Backup started at 2025-06-29_19-21-31...
+sending incremental file list
+
+sent 101 bytes  received 12 bytes  226.00 bytes/sec
+total size is 30  speedup is 0.27
+Backup completed succesfully at 2025-06-29_19-21-31 
+Backup started at 2025-06-29_19-23-41...
+sending incremental file list
+file2.txt
+
+sent 143 bytes  received 35 bytes  356.00 bytes/sec
+total size is 15  speedup is 0.08
+Backup completed succesfully at 2025-06-29_19-23-41 
+Backup started at 2025-06-29_19-24-02...
+sending incremental file list
+
+sent 100 bytes  received 12 bytes  224.00 bytes/sec
+total size is 15  speedup is 0.13
+Backup completed succesfully at 2025-06-29_19-24-02 
+Backup started at 2025-06-29_19-24-34...
+sending incremental file list
+file2.txt
+
+sent 163 bytes  received 35 bytes  396.00 bytes/sec
+total size is 30  speedup is 0.15
+Backup completed succesfully at 2025-06-29_19-24-34 
+Backup started at 2025-06-29_19:35:56...
+sending incremental file list
+./
+file1.txt
+file2.txt
+
+sent 222 bytes  received 57 bytes  558.00 bytes/sec
+total size is 29  speedup is 0.10
+Backup completed succesfully at 2025-06-29_19:35:57 
+
+Backup started at 2025-06-29_19:54:20...
+sending incremental file list
+file2.txt
+
+sent 175 bytes  received 35 bytes  420.00 bytes/sec
+total size is 42  speedup is 0.20
+Backup completed succesfully at 2025-06-29_19:54:20 
+
