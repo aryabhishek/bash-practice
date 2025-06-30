@@ -73,3 +73,65 @@ sent 101 bytes  received 12 bytes  75.33 bytes/sec
 total size is 97  speedup is 0.86
 Backup completed succesfully at 2025-06-30_14:46:30 
 
+
+==================== Backup Session: 2025-06-30 15:09:19 ====================
+[2025-06-30 15:09:19] [INFO] Backup process started using config: ./config.conf
+[2025-06-30 15:09:19] [INFO] Source directory found: ./src
+[2025-06-30 15:09:19] [INFO] Starting rsync...
+sending incremental file list
+created directory ./dist/latest
+./
+file1.txt
+file2.txt
+
+sent 291 bytes  received 93 bytes  768.00 bytes/sec
+total size is 97  speedup is 0.25
+[2025-06-30 15:09:19] [INFO] Creating compressed archive: backup-2025-06-30_15-09-19.tar.gz
+[2025-06-30 15:09:19] [INFO] Archive created successfully.
+[2025-06-30 15:09:19] [INFO] Cleaning up backups older than 7 days...
+[2025-06-30 15:09:19] [INFO] Old backups cleaned.
+[2025-06-30 15:09:19] [INFO] Backup completed successfully.
+--------------------------------------------------
+
+
+
+
+==================== Backup Session: 2025-06-30 15:19:16 ====================
+[2025-06-30 15:19:16] [INFO] Backup process started using config: ./config.conf
+[2025-06-30 15:19:16] [INFO] Source directory found: ./src
+[2025-06-30 15:19:16] [INFO] Starting rsync...
+sending incremental file list
+
+sent 101 bytes  received 12 bytes  75.33 bytes/sec
+total size is 97  speedup is 0.86
+[2025-06-30 15:19:17] [INFO] Creating compressed archive: backup-2025-06-30_15-19-17.tar.gz
+[2025-06-30 15:19:17] [INFO] Archive created successfully.
+[2025-06-30 15:19:17] [INFO] Cleaning up backups older than 7 days...
+[2025-06-30 15:19:17] [INFO] Old backups cleaned.
+[2025-06-30 15:19:17] [INFO] Backup completed successfully.
+--------------------------------------------------
+
+
+
+
+==================== Backup Session: 2025-06-30 15:21:01 ====================
+[2025-06-30 15:21:01] [INFO] Backup process started using config: ./config.conf
+[2025-06-30 15:21:01] [INFO] Source directory found: ./src
+[2025-06-30 15:21:01] [INFO] Starting rsync...
+sending incremental file list
+deleting latest/file2.txt
+deleting latest/file1.txt
+deleting latest/
+./
+
+sent 104 bytes  received 66 bytes  340.00 bytes/sec
+total size is 97  speedup is 0.57
+[2025-06-30 15:21:01] [INFO] Creating compressed archive: backup-2025-06-30_15-21-01.tar.gz
+[2025-06-30 15:21:01] [INFO] Archive created successfully.
+[2025-06-30 15:21:01] [INFO] Cleaning up backups older than 7 days...
+[2025-06-30 15:21:01] [INFO] Old backups cleaned.
+[2025-06-30 15:21:01] [INFO] Backup completed successfully.
+--------------------------------------------------
+
+
+
