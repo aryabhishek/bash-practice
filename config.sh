@@ -1,0 +1,6 @@
+SRC="./src"
+DEST="./dist"
+LOG_FILE="./logs/backup.log"
+TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
+BACKUP_FOLDER="./backups"
+BACKUP_FILE="backup-$TIMESTAMP.tar.gz"

@@ -58,3 +58,18 @@ sent 175 bytes  received 35 bytes  420.00 bytes/sec
 total size is 42  speedup is 0.20
 Backup completed succesfully at 2025-06-29_19:54:20 
 
+Backup started at 2025-06-30_14:44:45...
+sending incremental file list
+file2.txt
+
+sent 230 bytes  received 35 bytes  530.00 bytes/sec
+total size is 97  speedup is 0.37
+Backup completed succesfully at 2025-06-30_14:44:45 
+
+Backup started at 2025-06-30_14-46-29...
+sending incremental file list
+
+sent 101 bytes  received 12 bytes  75.33 bytes/sec
+total size is 97  speedup is 0.86
+Backup completed succesfully at 2025-06-30_14:46:30 
+

@@ -1,1 +1,2 @@
 this file has been modified
+rsync will keep the line above as is and add this one

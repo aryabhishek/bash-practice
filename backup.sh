@@ -1,13 +1,6 @@
 #!/bin/bash
 
-#--------------------Config------------------------#
-
-SRC=$1
-DEST=$2
-LOG_FILE="./logs/backup.log"
-TIMESTAMP=$(date +"%Y-%m-%d_%H:%M:%S")
-BACKUP_FOLDER="./backups"
-BACKUP_FILE="backup-$TIMESTAMP.tar.gz"
+source "config.sh"
 
 echo "Backup started at ${TIMESTAMP}..." >> $LOG_FILE
 
